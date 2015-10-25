@@ -6,6 +6,143 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <!-- Здесь применять вашу самую сильную магию -->
+        <label for="font">Font</label>
+        <select
+            id="font"
+            class="font"
+            data-selected=""
+            onchange="this.setAttribute('data-selected',
+            this.options[this.options.selectedIndex].value)">
+            <option value="Sahitya" selected="selected">Sahitya</option>
+            <option value="Lora">Lora</option>
+            <option value="Raleway">Raleway</option>
+        </select>
+        <label for="font-size">Font size</label>
+        <select
+            id="font-size"
+            class="font-size"
+            data-selected=""
+            onchange="this.setAttribute('data-selected',
+            this.options[this.options.selectedIndex].value)">
+            <option value="15">small</option>
+            <option value="20" selected="selected">medium</option>
+            <option value="25">large</option>
+        </select>
+        <label for="design">Design</label>
+        <select
+            id="design"
+            class="design"
+            data-selected=""
+            onchange="this.setAttribute('data-selected',
+            this.options[this.options.selectedIndex].value)">
+            <option value="1" selected="selected">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <div class="paper">
+            <header>
+                    <h1>BBC News</h1>
+                    <h2>Ekaterinburg, sunday, october 25, 2015</h2>
+                    <img class="design1" src="./line.png">
+                    <img class="design2" src="./line2.png">
+            </header>
+            <article class="first">
+                <h2>Ban due on direct flights between Russia and Ukraine</h2>
+                <p>
+                    Direct flights between Ukraine and Russia will stop on Sunday, as new sanctions initiated by Kiev come into effect.Moscow first called Kiev's ban on Russian airlines "madness", then announced that it would mirror the move.
+                </p>
+                <p>
+                    Ukraine now says flights will end at midnight on Saturday, after last-minute crisis talks failed.
+                    Up to 70,000 passengers a month will be affected.
+                </p>                
+                <p>
+                    The sanctions are intended to punish Russia for annexing Crimea and supporting armed rebels in eastern Ukraine.
+                    The fact that they have been introduced now, when a ceasefire is finally holding on the ground, shows how bitter relations remain.
+                </p>
+                <p>
+                    Russia has accused Ukraine of shooting itself in the foot with the move, pointing out that most passengers are Ukrainian travelling to work in Russia, visiting relatives or in transit.
+                    But two-thirds of all passengers travel on Russian airlines.
+                    <span class="bold">Russia's transport minister has estimated that the loss in ticket sales to both countries will run to around $110m (£73m) a year.</span>
+                    Jump media playerMedia player helpOut of media player.
+                    Press enter to return or tab to continue.
+                </p>
+                <div class="note">
+                    <img src="./plane.png" alt="plane">
+                    <span>Up to 70,000 passengers a month<br> will be affected.</span>
+                </div>
+                <p>
+                    Media captionSarah Rainsford spoke to passengers checking-in for one of the last few flights to Kiev from Moscow
+                    The ban is already angering passengers from both countries.
+                    <q>The government does things and it's the people who suffer,</q> Ukrainian Alexander Vyshnevsky said, after checking-in for one of the last remaining flights to Kiev from Moscow.
+                    He had been visiting his Russian wife and daughter.
+                </p>
+                <p>
+                    <span class="big"><q>Russia and Ukraine are like one country for me</q></span><q>Half of Ukraine is married to Russians. So this is total nonsense,</q> Mr Vyshnevsky added.
+                    <q>This is stupid,</q> Russian Konstantin Fokin agreed, before his own flight to Kiev. His sister lives in Ukraine and travelling to see her will now be difficult.
+                    <q class="bold">Lots of people have relatives in both Russia and Ukraine and they want to communicate. It's up to the authorities to stop this stupidity</q>, Mr Fokin said.
+                </p>
+                <p>
+                    Last-minute talks to find a compromise are under way - so far to no avail - and the chances of success look slim in this climate.
+                    So as of Sunday, passengers will be forced to take longer, more expensive routes via third countries, or to brace themselves for a 13-hour trip by train.
+                </p>
+            </article> 
+            <article class="second">
+                <h2>Maldives Vice-President Adeeb arrested over 'bomb plot'</h2>
+                <p>
+                    The vice-president of the Maldives has been arrested in connection with an alleged plot to assassinate the president, say police and officials.
+                    Ahmed Adeeb was in detention and being charged with high treason, Home Minister Umar Naseer said on Twitter.
+                </p>
+                <p>
+                    President Abdulla Yameen narrowly escaped injury when a blast struck the boat he was using to return home from the airport late last month.
+                    In recent years, the Maldives has been rocked by political infighting.
+                    Mr Yameen's election has been the subject of drawn-out wrangling.
+                    Security has been tightened in the capital Male amid fears of "turmoil" triggered by the arrest, says the Maldivian newspaper Haveeru.
+                    <q class="big">By early morning Saturday, lorries loaded with policemen and soldiers were seen on nearly every street</q>, it reports.
+                </p>
+                <p>
+                    Three others were also arrested on Saturday - including a former member of Adeeb's security detail and a member of the army's bomb squad, Associated Press news agency reported.
+                </p>
+                <p>
+                    The Maldives Independent website said Mr Adeeb's arrest had "surprised and enthralled many Maldivians".
+                </p>
+                <p>
+                    President Yameen and his wife were travelling to Male from the island where the airport is located on 28 September when their speedboat was hit by the bomb blast.
+                </p>
+                <span class="advertising">advertising</span>
+                <img src="./skype.jpg" alt="skype">
+            </article>           
+            <article class="third">
+                <h2>Trillions of Facebook posts added to search results</h2>
+                <p>
+                    Facebook has indexed almost two trillion posts put on the site by its members to make it easier to find them.
+                </p>
+                <p>
+                    The change means that many older posts will now be added to results when people search for news or information.
+                </p>
+                <p>
+                    The move is being seen as part of Facebook's attempts to keep people on the site rather than go elsewhere to keep up to date with events.
+                    It said options were available for people that did not want their older posts to be more widely accessible.
+                </p>
+                <img src="./facebook.jpg">
+                <h3>Bigger audience</h3>                
+                <p>
+                    Tom Stocky, Facebook's head of search, said in a blog post that many people already turned to Facebook when trying to find out how friends and family were reacting to world events.
+                    <span class="big">About 1.5 billion searches are carried out on Facebook every day</span> he said.
+                </p>
+                <p>
+                    The changes that Facebook has introduced will mean members of the social network will now also see posts by strangers alongside those from news organisations and people closest to them.
+                </p>
+                <p>
+                    <q class="bold">Search results are organised to help you cut through the noise and quickly understand what the world is saying about a topic in the moment,</q> said Mr Stocky.
+                </p>
+                <p>
+                    The post also detailed what Facebook users can do to limit who sees the older posts they shared.
+                    Currently the expanded search results are only available to Facebook members in the US.
+                </p>
+                <p>
+                    The move puts Facebook into direct competition with Twitter which recently introduced a similar system called Moments, said Caitlin McGarry on PC World.<span class="big">Facebook has a much wider audience than Twitter</span> said Ms McGarry. <q>so Facebook's potential reach for its search tools is exponentially larger.</q>
+                </p>
+            </article>
+        </div>
     </body>
 </html>
