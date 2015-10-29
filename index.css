@@ -9,67 +9,65 @@
 
 body
 {
-	width: 1300px;
+    width: 1300px;
 }
 
-div.paper
+.paper
 {
-	display: inline-block;
-	font: 20px 'Sahitya', serif;
-	width: 1300px;
-	background: #d5cea6;
-	display: inline-block;
-	background-image: url(http://i.stack.imgur.com/kb0Zm.jpg);
+    font: 20px 'Sahitya', serif;
+    width: 1300px;
+    background: #d5cea6;
+    display: inline-block;
+    background-image: url(http://i.stack.imgur.com/kb0Zm.jpg);
 }
 
 article
 {
-	float: left;
-	width: 600px;
-	-webkit-column-width: 180px;
+    float: left;
+    width: 600px;
     column-count-width: 180px;
-	-webkit-column-rule: 1px solid;
-	column-rule: 1px solid;
-    -webkit-column-gap: 20px;
-    column-gap: 20px;
+    column-rule: 1px solid;
+    column-gap: 20px;       
     padding: 10px;
     margin: 10px;
     border-top: 2px solid;
     text-align: justify;
+    -webkit-column-width: 180px;
+    -webkit-column-rule: 1px solid;    
+    -webkit-column-gap: 20px;
 }
 
-article.third img,
-article.second img
+.third img,
+.second img
 {
-	display:block;
-	-webkit-column-span: all;
-	column-span: all;
-	margin: auto;
+    display:block;
+    column-span: all;
+    margin: auto;
+    -webkit-column-span: all;
 }
 
-div.note
+.note
 {
-	position: relative;
-	display: block;
-	height: 250px;
-	-webkit-column-span: all;
-	column-span: all;
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font: 40px 'Courgette', cursive;
-	border-top: 2px solid;
-	border-bottom: 2px solid;
+    position: relative;
+    height: 250px;
+    column-span: all;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font: 40px 'Courgette', cursive;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    -webkit-column-span: all;
 }
 
-div.note span
+.note span
 {
-	position: absolute;
-	top: 60px;
-	right: 10px;
-	height: 100%;
-	margin-bottom: 5px;
-	text-align: center;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    height: 100%;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 .first img 
@@ -82,84 +80,84 @@ div.note span
 
 .second img
 {
-	width: 80%;
+    width: 80%;
 }
 
 .advertising
 {
-	font: 1.75em 'Lobster', cursive;
-	text-transform: uppercase;
-	-webkit-column-span: all;
-	column-span: all;
-	display: block;
-	text-align: center;
-	border-top: 2px solid;
-	border-bottom: 2px solid;
+    font: 1.75em 'Lobster', cursive;
+    text-transform: uppercase;
+    column-span: all;
+    display: block;
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    -webkit-column-span: all;
 }
 
-article.first
+.first
 {
-	border-bottom: 2px solid;
-	width: 1240px;
-	margin-top: 0;
+    border-bottom: 2px solid;
+    width: 1240px;
+    margin-top: 0;
 }
 
 article h2 + p:first-letter
 {
-	font-size: 2em;
+    font-size: 2em;
 }
 
 article h2
 {
-	font-family: 'IM Fell English SC', serif;
+    font-family: 'IM Fell English SC', serif;
 }
 
 .big
 {
-	font-family: 'Romanesco', cursive;
-	-webkit-column-span: all;
-	column-span: all;
+    font-family: 'Romanesco', cursive;
+    column-span: all;
     display: block;
     font-size: 2em;
     margin: 20px 0;
     text-align: center;
+    -webkit-column-span: all;
 }
 
 .bold
 {
-	font: 1.1em 'Lora', serif;
+    font: 1.1em 'Lora', serif;
 }
 
 header 
 {
-	text-transform: uppercase;
-	text-align: center;
-	font-family: 'Rye', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Rye', cursive;
 }
 
-header h1
+h1
 {
-	font-size: 4em;
-	margin-bottom: 5px;
-	margin-top: 15px;
+    font-size: 4em;
+    margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 header h2
 {
-	font-size: 2em;
-	margin: 0;
+    font-size: 2em;
+    margin: 0;
 }
 
 header img
 {
-	width: 1200px;
-	height: 100px;
-	margin: 0;
+    width: 1200px;
+    height: 100px;
+    margin: 0;
 }
 
 .design2
 {
-	display: none;
+    display: none;
 }
 
 select 
@@ -171,58 +169,57 @@ select
     color: #051f34;
 }
 
-
 /*настройки*/
 .font-size[data-selected ="15"] ~ .paper
 {
-	font-size: 15px;
+    font-size: 15px;
 }
 
 .font-size[data-selected ="25"] ~ .paper
 {
-	font-size: 25px;
+    font-size: 25px;
 }
 
 .font[data-selected ="Lora"] ~ .paper
 {
-	font-family: 'Lora', serif;
+    font-family: 'Lora', serif;
 }
 
 .font[data-selected ="Raleway"] ~ .paper
 {
-	font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .design[data-selected ="2"] ~ .paper
 {
-	color: #800000;
-	background-image: url(http://img07.deviantart.net/89a0/i/2014/012/b/3/old_paper_texture_8_by_i__zoldalma__i-d71y1hy.png);
+    color: #800000;
+    background-image: url(http://img07.deviantart.net/89a0/i/2014/012/b/3/old_paper_texture_8_by_i__zoldalma__i-d71y1hy.png);
 }
 
 .design[data-selected ="2"] ~ .paper header img.design1
 {
-	display: none;
+    display: none;
 }
 
 .design[data-selected ="2"] ~ .paper header img.design2
 {
-	display: inline;
-	margin: auto;
+    display: inline;
+    margin: auto;
 }
 
 .design[data-selected ="3"] ~ .paper
 {
-	color: #2f4f4f;
-	background-image: url(http://img08.deviantart.net/3ba9/i/2007/053/5/3/canvas_texture_white_paper_by_enchantedgal_stock.jpg);
+    color: #2f4f4f;
+    background-image: url(http://img08.deviantart.net/3ba9/i/2007/053/5/3/canvas_texture_white_paper_by_enchantedgal_stock.jpg);
 }
 
 .design[data-selected ="3"] ~ .paper header img.design1
 {
-	display: none;
+    display: none;
 }
 
 .design[data-selected ="3"] ~ .paper header img.design2
 {
-	display: none;
+    display: none;
 }
 
